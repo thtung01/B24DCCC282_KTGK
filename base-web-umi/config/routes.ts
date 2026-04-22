@@ -36,7 +36,12 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
-
+	{
+		path: "/course",
+		name: "Course",
+		component: "./Course"
+	},
+	
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
@@ -89,4 +94,6 @@
 	{
 		component: './exception/404',
 	},
+	
+
 ];
